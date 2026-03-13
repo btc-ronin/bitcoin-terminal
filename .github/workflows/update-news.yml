@@ -1,4 +1,4 @@
-name: Update Bitcoin News
+name: Update Bitcoin Data
 
 on:
   schedule:
@@ -9,27 +9,70 @@ permissions:
   contents: write
 
 jobs:
-  update-news:
+  update-data:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install feedparser
-        run: pip install feedparser
+      - name: Install dependencies
+        run: pip install feedparser requests beautifulsoup4
 
-      - name: Generate news.json
+      - name: Generate news.json and etf.json
         run: |
           python << 'EOF'
           import json
+          import re
           import feedparser
+          import requests
+          from bs4 import BeautifulSoup
+
+          # ---------------------------
+          # NEWS
+          # ---------------------------
 
           feeds = [
               ("Bitcoin Magazine", "https://bitcoinmagazine.com/.rss/full/"),
               ("CoinDesk", "https://www.coindesk.com/arc/outboundfeeds/rss/"),
               ("Blockworks", "https://blockworks.co/feed")
           ]
+
+          def pick_image(entry):
+              # media_thumbnail
+              media_thumb = entry.get("media_thumbnail", [])
+              if media_thumb and isinstance(media_thumb, list):
+                  url = media_thumb[0].get("url")
+                  if url:
+                      return url
+
+              # media_content
+              media_content = entry.get("media_content", [])
+              if media_content and isinstance(media_content, list):
+                  for item in media_content:
+                      url = item.get("url", "")
+                      media_type = item.get("type", "")
+                      if url and ("image" in media_type or media_type == ""):
+                          return url
+
+              # links enclosure
+              links = entry.get("links", [])
+              if links and isinstance(links, list):
+                  for link in links:
+                      href = link.get("href", "")
+                      rel = link.get("rel", "")
+                      media_type = link.get("type", "")
+                      if href and rel == "enclosure" and "image" in media_type:
+                          return href
+
+              # image field
+              image = entry.get("image")
+              if isinstance(image, dict):
+                  href = image.get("href")
+                  if href:
+                      return href
+
+              return ""
 
           news = []
 
@@ -42,6 +85,7 @@ jobs:
                       link = entry.get("link", "").strip()
                       summary = entry.get("summary", "").strip()
                       description = entry.get("description", "").strip()
+                      image = pick_image(entry)
 
                       if title and link:
                           news.append({
@@ -49,11 +93,12 @@ jobs:
                               "link": link,
                               "source": source,
                               "summary": summary,
-                              "description": description
+                              "description": description,
+                              "image": image
                           })
 
               except Exception as e:
-                  print(f"Error en {source}: {e}")
+                  print(f"Error en feed {source}: {e}")
 
           seen = set()
           clean_news = []
@@ -67,12 +112,93 @@ jobs:
               json.dump(clean_news[:12], f, ensure_ascii=False, indent=2)
 
           print(f"Noticias guardadas: {len(clean_news[:12])}")
+
+          # ---------------------------
+          # ETF FLOWS
+          # ---------------------------
+
+          etf_data = {
+              "date": "",
+              "total_flow_musd": 0,
+              "funds": []
+          }
+
+          try:
+              html = requests.get("https://farside.co.uk/btc/", timeout=30).text
+              soup = BeautifulSoup(html, "html.parser")
+
+              text = soup.get_text("\n", strip=True)
+              lines = [line.strip() for line in text.splitlines() if line.strip()]
+
+              # Buscar la última fecha con formato "12 Mar 2026"
+              date_pattern = re.compile(r"^\d{2}\s[A-Z][a-z]{2}\s\d{4}$")
+              dates = [i for i, line in enumerate(lines) if date_pattern.match(line)]
+
+              if dates:
+                  idx = dates[-2] if lines[dates[-1]] == "13 Mar 2026" and dates[-1] > 0 else dates[-1]
+                  flow_date = lines[idx]
+
+                  # En Farside el orden de fondos suele ser este
+                  tickers = [
+                      ("IBIT", "BlackRock iShares Bitcoin Trust"),
+                      ("FBTC", "Fidelity Wise Origin Bitcoin Fund"),
+                      ("BITB", "Bitwise Bitcoin ETF"),
+                      ("ARKB", "ARK 21Shares Bitcoin ETF"),
+                      ("BTCO", "Invesco Galaxy Bitcoin ETF"),
+                      ("EZBC", "Franklin Bitcoin ETF"),
+                      ("HODL", "VanEck Bitcoin Trust"),
+                      ("BRRR", "Valkyrie Bitcoin Fund"),
+                      ("BTCW", "WisdomTree Bitcoin Fund"),
+                      ("GBTC", "Grayscale Bitcoin Trust"),
+                      ("mini", "Grayscale Bitcoin Mini Trust")
+                  ]
+
+                  values = lines[idx + 1: idx + 13]
+
+                  parsed_flows = []
+                  for n, (ticker, name) in enumerate(tickers):
+                      if n < len(values):
+                          raw = values[n].replace(",", "").replace("(", "-").replace(")", "")
+                          if raw == "-" or raw == "":
+                              flow = 0.0
+                          else:
+                              try:
+                                  flow = float(raw)
+                              except:
+                                  flow = 0.0
+
+                          parsed_flows.append({
+                              "ticker": ticker,
+                              "name": name,
+                              "flow_musd": flow
+                          })
+
+                  total_raw = lines[idx + 12] if len(lines) > idx + 12 else "0.0"
+                  total_raw = total_raw.replace(",", "").replace("(", "-").replace(")", "")
+                  try:
+                      total_flow = float(total_raw)
+                  except:
+                      total_flow = 0.0
+
+                  etf_data = {
+                      "date": flow_date,
+                      "total_flow_musd": total_flow,
+                      "funds": parsed_flows
+                  }
+
+          except Exception as e:
+              print(f"Error ETF: {e}")
+
+          with open("etf.json", "w", encoding="utf-8") as f:
+              json.dump(etf_data, f, ensure_ascii=False, indent=2)
+
+          print("ETF data guardada")
           EOF
 
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add news.json
-          git diff --staged --quiet || git commit -m "update news"
+          git add news.json etf.json
+          git diff --staged --quiet || git commit -m "update bitcoin data"
           git push
