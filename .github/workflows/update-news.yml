@@ -1,0 +1,53 @@
+name: Update Bitcoin News
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate news.json
+        run: |
+          python << 'EOF'
+          import json,urllib.request,xml.etree.ElementTree as ET
+
+          feeds=[
+          ("Bitcoin Magazine","https://bitcoinmagazine.com/.rss/full/"),
+          ("CoinDesk","https://www.coindesk.com/arc/outboundfeeds/rss/"),
+          ("Blockworks","https://blockworks.co/feed")
+          ]
+
+          news=[]
+
+          for source,url in feeds:
+              try:
+                  data=urllib.request.urlopen(url).read()
+                  root=ET.fromstring(data)
+
+                  for item in root.findall(".//item")[:5]:
+                      news.append({
+                      "title":item.find("title").text,
+                      "link":item.find("link").text,
+                      "source":source
+                      })
+              except:
+                  pass
+
+          with open("news.json","w") as f:
+              json.dump(news,f,indent=2)
+          EOF
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add news.json
+          git commit -m "update news" || echo "no changes"
+          git push
