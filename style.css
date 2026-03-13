@@ -206,3 +206,26 @@ p {
     font-size: 24px;
   }
 }
+.market-placeholder {
+  min-height: 300px;
+  border-radius: 16px;
+  background: #0b0f16;
+  border: 1px solid rgba(255,255,255,0.06);
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.placeholder-title {
+  color: var(--btc);
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 18px;
+}
+
+.placeholder-list {
+  color: var(--muted);
+  font-size: 18px;
+  line-height: 1.9;
+}
