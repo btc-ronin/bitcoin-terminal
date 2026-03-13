@@ -71,7 +71,7 @@ body{
 /* LAYOUT */
 
 .container{
-  max-width:1280px;
+  max-width:1320px;
   margin:30px auto;
   padding:0 20px 40px;
   display:grid;
@@ -173,11 +173,67 @@ h2{
   height:650px;
 }
 
-/* NEWS */
+/* TWO COLUMN */
 
-.news-panel{
-  overflow:hidden;
+.two-col-grid{
+  display:grid;
+  grid-template-columns:420px 1fr;
+  gap:24px;
+  align-items:start;
 }
+
+/* ETF PANEL */
+
+.etf-summary-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:14px;
+  margin-bottom:18px;
+}
+
+.etf-stat{
+  background:#0d121b;
+  border:1px solid rgba(255,255,255,0.06);
+  border-radius:16px;
+  padding:16px;
+}
+
+.etf-list{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+
+.etf-row{
+  display:grid;
+  grid-template-columns:80px 1fr auto;
+  gap:12px;
+  align-items:center;
+  background:linear-gradient(180deg,#141b28 0%, #101620 100%);
+  border:1px solid rgba(255,255,255,0.06);
+  border-radius:16px;
+  padding:14px;
+}
+
+.etf-ticker{
+  color:var(--btc);
+  font-weight:800;
+  font-size:15px;
+}
+
+.etf-name{
+  color:var(--muted);
+  font-size:13px;
+  line-height:1.35;
+}
+
+.etf-flow{
+  font-weight:800;
+  font-size:16px;
+  text-align:right;
+}
+
+/* NEWS */
 
 .news-grid{
   display:grid;
@@ -189,17 +245,39 @@ h2{
   background:linear-gradient(180deg,#141b28 0%, #101620 100%);
   border:1px solid rgba(255,255,255,0.06);
   border-radius:18px;
-  padding:18px;
+  overflow:hidden;
   transition:transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
   display:flex;
   flex-direction:column;
-  min-height:220px;
+  min-height:360px;
 }
 
 .news-card:hover{
   transform:translateY(-3px);
   border-color:rgba(247,147,26,0.26);
   box-shadow:0 14px 28px rgba(0,0,0,0.25);
+}
+
+.news-image-wrap{
+  width:100%;
+  aspect-ratio:16/9;
+  background:#0c1119;
+  overflow:hidden;
+  border-bottom:1px solid rgba(255,255,255,0.06);
+}
+
+.news-image{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+}
+
+.news-content{
+  padding:18px;
+  display:flex;
+  flex-direction:column;
+  flex-grow:1;
 }
 
 .news-top{
@@ -244,7 +322,7 @@ h2{
   color:var(--text);
   text-decoration:none;
   font-size:26px;
-  line-height:1.28;
+  line-height:1.24;
   font-weight:800;
   margin:0 0 14px;
   display:block;
@@ -284,9 +362,13 @@ h2{
 
 /* RESPONSIVE */
 
-@media(max-width:1100px){
+@media(max-width:1180px){
   .metrics-grid{
     grid-template-columns:repeat(2,1fr);
+  }
+
+  .two-col-grid{
+    grid-template-columns:1fr;
   }
 
   .news-grid{
@@ -320,5 +402,19 @@ h2{
 
   .tradingview-widget-container{
     height:500px;
+  }
+
+  .etf-summary-grid{
+    grid-template-columns:1fr;
+  }
+
+  .etf-row{
+    grid-template-columns:72px 1fr;
+  }
+
+  .etf-flow{
+    grid-column:1 / -1;
+    text-align:left;
+    margin-top:4px;
   }
 }
