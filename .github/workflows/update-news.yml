@@ -5,6 +5,9 @@ on:
     - cron: "*/10 * * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   update-news:
     runs-on: ubuntu-latest
@@ -16,38 +19,53 @@ jobs:
       - name: Generate news.json
         run: |
           python << 'EOF'
-          import json,urllib.request,xml.etree.ElementTree as ET
+          import json
+          import urllib.request
+          import xml.etree.ElementTree as ET
 
-          feeds=[
-          ("Bitcoin Magazine","https://bitcoinmagazine.com/.rss/full/"),
-          ("CoinDesk","https://www.coindesk.com/arc/outboundfeeds/rss/"),
-          ("Blockworks","https://blockworks.co/feed")
+          feeds = [
+              ("Bitcoin Magazine", "https://bitcoinmagazine.com/.rss/full/"),
+              ("CoinDesk", "https://www.coindesk.com/arc/outboundfeeds/rss/"),
+              ("Blockworks", "https://blockworks.co/feed")
           ]
 
-          news=[]
+          news = []
 
-          for source,url in feeds:
+          for source, url in feeds:
               try:
-                  data=urllib.request.urlopen(url).read()
-                  root=ET.fromstring(data)
+                  data = urllib.request.urlopen(url, timeout=20).read()
+                  root = ET.fromstring(data)
 
                   for item in root.findall(".//item")[:5]:
-                      news.append({
-                      "title":item.find("title").text,
-                      "link":item.find("link").text,
-                      "source":source
-                      })
-              except:
-                  pass
+                      title = item.findtext("title")
+                      link = item.findtext("link")
 
-          with open("news.json","w") as f:
-              json.dump(news,f,indent=2)
+                      if title and link:
+                          news.append({
+                              "title": title.strip(),
+                              "link": link.strip(),
+                              "source": source
+                          })
+              except Exception as e:
+                  print(f"Error en {source}: {e}")
+
+          # quitar duplicados
+          seen = set()
+          clean_news = []
+
+          for item in news:
+              if item["link"] not in seen:
+                  clean_news.append(item)
+                  seen.add(item["link"])
+
+          with open("news.json", "w", encoding="utf-8") as f:
+              json.dump(clean_news[:15], f, ensure_ascii=False, indent=2)
           EOF
 
       - name: Commit changes
         run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add news.json
-          git commit -m "update news" || echo "no changes"
+          git diff --staged --quiet || git commit -m "update news"
           git push
