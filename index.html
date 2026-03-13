@@ -24,6 +24,28 @@
       <p>Precio, noticias y sentimiento de mercado en una sola pantalla.</p>
     </section>
 
+    <section class="metrics-grid">
+      <div class="metric-card panel">
+        <div class="metric-label">Precio BTC</div>
+        <div class="metric-value" id="metricPrice">--</div>
+      </div>
+
+      <div class="metric-card panel">
+        <div class="metric-label">Cambio 24h</div>
+        <div class="metric-value" id="metricChange">--</div>
+      </div>
+
+      <div class="metric-card panel">
+        <div class="metric-label">Market Cap</div>
+        <div class="metric-value" id="metricCap">--</div>
+      </div>
+
+      <div class="metric-card panel">
+        <div class="metric-label">Precio EUR</div>
+        <div class="metric-value" id="metricEur">--</div>
+      </div>
+    </section>
+
     <section class="panel">
       <h2>Últimas noticias</h2>
       <div id="newsList">Cargando noticias...</div>
@@ -31,16 +53,20 @@
 
     <section class="panel">
       <h2>X / mercado</h2>
-      <a class="twitter-timeline"
-         data-theme="dark"
-         data-height="550"
-         href="https://twitter.com/BitcoinMagazine">
-         Posts by Bitcoin Magazine
-      </a>
+      <div class="x-wrap">
+        <a
+          class="twitter-timeline"
+          data-theme="dark"
+          data-height="650"
+          data-chrome="noheader nofooter borders transparent"
+          href="https://twitter.com/BitcoinMagazine">
+          Posts by Bitcoin Magazine
+        </a>
+      </div>
     </section>
   </main>
 
-  <script async src="https://platform.twitter.com/widgets.js"></script>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   <script src="app.js"></script>
 </body>
 </html>
