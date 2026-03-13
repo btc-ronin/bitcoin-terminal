@@ -97,15 +97,39 @@
       </div>
     </section>
 
-    <section class="panel news-panel">
-      <div class="section-head">
-        <h2>Últimas noticias</h2>
-        <div class="section-tag">Bitcoin only</div>
-      </div>
+    <section class="two-col-grid">
+      <section class="panel etf-panel">
+        <div class="section-head">
+          <h2>ETF flows</h2>
+          <div class="section-tag">Spot BTC ETFs</div>
+        </div>
 
-      <div id="newsList" class="news-grid">
-        Cargando noticias...
-      </div>
+        <div class="etf-summary-grid">
+          <div class="etf-stat">
+            <div class="metric-label">Flujo diario total</div>
+            <div class="metric-value" id="etfTotalFlow">--</div>
+          </div>
+          <div class="etf-stat">
+            <div class="metric-label">Fecha</div>
+            <div class="metric-value" id="etfDate">--</div>
+          </div>
+        </div>
+
+        <div id="etfList" class="etf-list">
+          Cargando ETFs...
+        </div>
+      </section>
+
+      <section class="panel news-panel">
+        <div class="section-head">
+          <h2>Últimas noticias</h2>
+          <div class="section-tag">Bitcoin only</div>
+        </div>
+
+        <div id="newsList" class="news-grid">
+          Cargando noticias...
+        </div>
+      </section>
     </section>
 
   </main>
