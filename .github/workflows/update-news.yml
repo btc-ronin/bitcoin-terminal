@@ -16,12 +16,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Install feedparser
+        run: pip install feedparser
+
       - name: Generate news.json
         run: |
           python << 'EOF'
           import json
-          import urllib.request
-          import xml.etree.ElementTree as ET
+          import feedparser
 
           feeds = [
               ("Bitcoin Magazine", "https://bitcoinmagazine.com/.rss/full/"),
@@ -33,23 +35,20 @@ jobs:
 
           for source, url in feeds:
               try:
-                  data = urllib.request.urlopen(url, timeout=20).read()
-                  root = ET.fromstring(data)
-
-                  for item in root.findall(".//item")[:5]:
-                      title = item.findtext("title")
-                      link = item.findtext("link")
+                  feed = feedparser.parse(url)
+                  for entry in feed.entries[:5]:
+                      title = entry.get("title", "").strip()
+                      link = entry.get("link", "").strip()
 
                       if title and link:
                           news.append({
-                              "title": title.strip(),
-                              "link": link.strip(),
+                              "title": title,
+                              "link": link,
                               "source": source
                           })
               except Exception as e:
                   print(f"Error en {source}: {e}")
 
-          # quitar duplicados
           seen = set()
           clean_news = []
 
@@ -60,6 +59,8 @@ jobs:
 
           with open("news.json", "w", encoding="utf-8") as f:
               json.dump(clean_news[:15], f, ensure_ascii=False, indent=2)
+
+          print(f"Noticias guardadas: {len(clean_news[:15])}")
           EOF
 
       - name: Commit changes
