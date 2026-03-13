@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bitcoin Terminal</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-title">BITCOIN TERMINAL</div>
+      <div class="brand-subtitle">Signal. Not noise.</div>
+    </div>
+    <div id="priceBox" class="price-box">Cargando BTC...</div>
+  </header>
+
+  <main class="container">
+    <section class="hero panel">
+      <h1>Dashboard Bitcoin</h1>
+      <p>Precio, noticias y sentimiento de mercado en una sola pantalla.</p>
+    </section>
+
+    <section class="panel">
+      <h2>Últimas noticias</h2>
+      <div id="newsList">Cargando noticias...</div>
+    </section>
+
+    <section class="panel">
+      <h2>X / mercado</h2>
+      <a class="twitter-timeline"
+         data-theme="dark"
+         data-height="550"
+         href="https://twitter.com/BitcoinMagazine">
+         Posts by Bitcoin Magazine
+      </a>
+    </section>
+  </main>
+
+  <script async src="https://platform.twitter.com/widgets.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
