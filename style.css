@@ -1,0 +1,148 @@
+:root {
+  --bg: #0f1115;
+  --panel: #171a21;
+  --border: #2a2f3a;
+  --btc: #F7931A;
+  --btc-light: #ffab3d;
+  --text: #ffffff;
+  --muted: #a0a0a0;
+  --green: #27c26c;
+  --red: #ff5c5c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+}
+
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 22px;
+  background: linear-gradient(90deg, #111 0%, #1a1a1a 40%, #111 100%);
+  border-bottom: 2px solid var(--btc);
+  box-shadow: 0 0 18px rgba(247,147,26,0.18);
+}
+
+.brand-title {
+  color: var(--btc);
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.brand-subtitle {
+  color: var(--muted);
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.price-box {
+  background: #111;
+  color: var(--btc);
+  border: 1px solid rgba(247,147,26,0.35);
+  border-radius: 12px;
+  padding: 12px 16px;
+  font-weight: 700;
+  min-width: 220px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 22px auto;
+  padding: 0 16px 30px;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 20px;
+}
+
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.28);
+}
+
+.hero {
+  grid-column: 1 / -1;
+  background:
+    radial-gradient(circle at top right, rgba(247,147,26,0.12), transparent 30%),
+    var(--panel);
+}
+
+h1 {
+  margin: 0 0 8px;
+  color: var(--btc);
+  font-size: 34px;
+}
+
+h2 {
+  margin-top: 0;
+  color: var(--btc);
+  font-size: 22px;
+}
+
+p {
+  color: var(--muted);
+}
+
+.news-item {
+  padding: 14px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.news-item:last-child {
+  border-bottom: none;
+}
+
+.news-item a {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.news-item a:hover {
+  color: var(--btc-light);
+}
+
+.news-meta {
+  color: var(--muted);
+  font-size: 13px;
+  margin-top: 6px;
+}
+
+.positive {
+  color: var(--green);
+}
+
+.negative {
+  color: var(--red);
+}
+
+@media (max-width: 900px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .topbar {
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+  }
+
+  .price-box {
+    width: 100%;
+  }
+}
