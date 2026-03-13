@@ -36,16 +36,22 @@ jobs:
           for source, url in feeds:
               try:
                   feed = feedparser.parse(url)
-                  for entry in feed.entries[:5]:
+
+                  for entry in feed.entries[:6]:
                       title = entry.get("title", "").strip()
                       link = entry.get("link", "").strip()
+                      summary = entry.get("summary", "").strip()
+                      description = entry.get("description", "").strip()
 
                       if title and link:
                           news.append({
                               "title": title,
                               "link": link,
-                              "source": source
+                              "source": source,
+                              "summary": summary,
+                              "description": description
                           })
+
               except Exception as e:
                   print(f"Error en {source}: {e}")
 
@@ -58,9 +64,9 @@ jobs:
                   seen.add(item["link"])
 
           with open("news.json", "w", encoding="utf-8") as f:
-              json.dump(clean_news[:15], f, ensure_ascii=False, indent=2)
+              json.dump(clean_news[:12], f, ensure_ascii=False, indent=2)
 
-          print(f"Noticias guardadas: {len(clean_news[:15])}")
+          print(f"Noticias guardadas: {len(clean_news[:12])}")
           EOF
 
       - name: Commit changes
