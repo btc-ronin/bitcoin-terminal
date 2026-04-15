@@ -48,6 +48,22 @@
     "image": ""
   },
   {
+    "title": "Wall Street won’t buy ‘trustless’ security promises",
+    "link": "https://www.coindesk.com/opinion/2026/04/15/wall-street-won-t-buy-trustless-security-promises",
+    "source": "CoinDesk",
+    "summary": "",
+    "description": "",
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/26c4e5dfe1bfdaef0d7a60f631a041c9fba45dbd-2048x1365.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+  },
+  {
+    "title": "Crypto Long & Short: Fighting fraud in the digital age: why state-led identity is the future",
+    "link": "https://www.coindesk.com/coindesk-indices/2026/04/15/crypto-long-and-short-fighting-fraud-in-the-digital-age-why-state-led-identity-is-the-future",
+    "source": "CoinDesk",
+    "summary": "",
+    "description": "",
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/af5d3a2f14c5d8ab892fa58a445b272f2f7f1f88-5963x3975.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+  },
+  {
     "title": "Bitcoin developer Jameson Lopp says it's better to freeze 5.6 million BTC than let hackers have them",
     "link": "https://www.coindesk.com/business/2026/04/15/bitcoin-developer-jameson-lopp-says-it-s-better-to-freeze-5-6-million-btc-than-let-hackers-have-them",
     "source": "CoinDesk",
@@ -69,7 +85,7 @@
     "source": "CoinDesk",
     "summary": "",
     "description": "",
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/e79b7e1f9545df19b266f4fd8699f9d60a9b1cb5-1500x1009.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/cc8e86d0547bd63062a952aa456fa7cb418a7787-2938x2350.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
   },
   {
     "title": "TeraWulf stock declines on $900 million share sale to fund AI data center expansion",
@@ -78,21 +94,5 @@
     "summary": "",
     "description": "",
     "image": "https://cdn.sanity.io/images/s3y3vcno/production/09c7af12c3ed9c083ddc433486f71cdad7b77bfd-2560x1416.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-  },
-  {
-    "title": "CoinDesk 20 performance update: AAVE rises 4.3% as trades flat",
-    "link": "https://www.coindesk.com/coindesk-indices/2026/04/15/coindesk-20-performance-update-aave-rises-4-3-as-trades-flat",
-    "source": "CoinDesk",
-    "summary": "",
-    "description": "",
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/976033f25d3b85eaf9d76fa42e2d76783a173cea-640x480.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-  },
-  {
-    "title": "Pakistan lifts seven-year ban, allowing banks to service crypto providers",
-    "link": "https://www.coindesk.com/policy/2026/04/15/pakistan-lifts-seven-year-ban-allowing-banks-to-service-virtual-asset-providers",
-    "source": "CoinDesk",
-    "summary": "",
-    "description": "",
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/c86fca7264b99fb579b158d54ecfbc66b857f78e-10410x5764.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
   }
 ]
