@@ -48,6 +48,14 @@
     "image": ""
   },
   {
+    "title": "Hack at Vercel sends crypto developers scrambling to lock down API keys",
+    "link": "https://www.coindesk.com/tech/2026/04/20/hack-at-vercel-sends-crypto-developers-scrambling-to-lock-down-api-keys",
+    "source": "CoinDesk",
+    "summary": "",
+    "description": "",
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/19279f188fd985541125b59d44d4ad2fbf6af84d-7008x4672.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+  },
+  {
     "title": "The $292 million Kelp exploit: how it happened, and what it means for DeFi",
     "link": "https://www.coindesk.com/business/2026/04/19/the-usd292-million-kelp-exploit-how-it-happened-and-what-it-means-for-defi",
     "source": "CoinDesk",
@@ -72,7 +80,7 @@
     "image": "https://cdn.sanity.io/images/s3y3vcno/production/94bfb7e66a0dbf5c49617759f7976af709d84690-1000x667.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
   },
   {
-    "title": "'DeFi is dead': crypto community scrambles after this year's biggest hack exposes contagion risks",
+    "title": "'DeFi is dead': crypto community scrambles after this year's biggest hack exposes contagion risk",
     "link": "https://www.coindesk.com/news-analysis/2026/04/19/defi-is-dead-crypto-community-scrambles-after-usd292-million-hack-exposes-cross-chain-risks",
     "source": "CoinDesk",
     "summary": "",
@@ -86,13 +94,5 @@
     "summary": "",
     "description": "",
     "image": "https://cdn.sanity.io/images/s3y3vcno/production/12aadf777b36dc32a0cd75e657cfee15fdcd5e22-1893x1065.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-  },
-  {
-    "title": "Aave sees $6 billion deposit drop as Kelp hack exposes structural risk for DeFi lender",
-    "link": "https://www.coindesk.com/tech/2026/04/19/aave-records-usd6-billion-tvl-drop-as-kelp-hack-exposes-structural-risk-at-defi-lender",
-    "source": "CoinDesk",
-    "summary": "",
-    "description": "",
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/c48dd32903d41ec222f4a093c9aefa108c259b98-2960x1665.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
   }
 ]
