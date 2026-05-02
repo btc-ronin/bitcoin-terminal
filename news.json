@@ -48,6 +48,14 @@
     "image": ""
   },
   {
+    "title": "New Bitcoin quantum proposal offers Satoshi Nakamoto a way to prove control without moving BTC",
+    "link": "https://www.coindesk.com/tech/2026/05/02/new-bitcoin-quantum-proposal-offers-satoshi-nakamoto-a-way-to-prove-control-without-moving-btc",
+    "source": "CoinDesk",
+    "summary": "",
+    "description": "",
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/5ac794a198da68fdb1b6a9d4e19c2e947f99454c-1920x1080.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+  },
+  {
     "title": "Clarity Act text lets crypto firms offer stablecoin rewards while shielding bank yield",
     "link": "https://www.coindesk.com/policy/2026/05/01/clarity-act-text-lets-crypto-firms-offer-stablecoin-rewards-while-shielding-bank-yield",
     "source": "CoinDesk",
@@ -86,13 +94,5 @@
     "summary": "",
     "description": "",
     "image": "https://cdn.sanity.io/images/s3y3vcno/production/4c4b6d83ec07f1a9cb9858d9091284b006c9a647-5472x3648.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-  },
-  {
-    "title": "Tether posts $1.04 billion Q1 profit, reaches $8.23 billion reserve buffer",
-    "link": "https://www.coindesk.com/business/2026/05/01/tether-posts-usd1-04-billion-q1-profit-reaches-usd8-23-billion-reserve-buffer",
-    "source": "CoinDesk",
-    "summary": "",
-    "description": "",
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/931e20dc1e2cb33c8ec322651d45005f7f61d0ed-1920x1080.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
   }
 ]
