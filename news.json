@@ -48,6 +48,22 @@
     "image": ""
   },
   {
+    "title": "U.S. hiring slowdown could be great for bitcoin — unless wages spoil the party",
+    "link": "https://www.coindesk.com/daybook-us/2026/05/08/u-s-hiring-slowdown-could-be-great-for-bitcoin-unless-wages-spoil-the-party",
+    "source": "CoinDesk",
+    "summary": "",
+    "description": "",
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/a4d81e192e1f62823140aa467b9ae9ea05af455a-6000x4000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+  },
+  {
+    "title": "Coinbase blames AWS for hours-long crypto trading outage",
+    "link": "https://www.coindesk.com/business/2026/05/08/coinbase-disruption-tied-to-aws-outage-draws-criticism-amid-staff-layoffs-and-q1-losses",
+    "source": "CoinDesk",
+    "summary": "",
+    "description": "",
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/078429b34ba84d8c8190c735090cbbb25e64ecec-4032x2268.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+  },
+  {
     "title": "Bitcoin retreats below $80,000, liquidating $300 million in futures bets",
     "link": "https://www.coindesk.com/markets/2026/05/08/bitcoin-retreats-below-usd80-000-liquidating-usd300-million-in-futures-bets",
     "source": "CoinDesk",
@@ -78,21 +94,5 @@
     "summary": "",
     "description": "",
     "image": "https://cdn.sanity.io/images/s3y3vcno/production/75b0fa4496e566ec8e4e93612e6b13ac062e0a82-1920x1080.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-  },
-  {
-    "title": "Zcash to roll out quantum-recoverable wallets within a month, go quantum-proof by 2027",
-    "link": "https://www.coindesk.com/tech/2026/05/08/zcash-to-roll-out-quantum-recoverable-wallets-within-a-month-go-quantum-proof-by-2027",
-    "source": "CoinDesk",
-    "summary": "",
-    "description": "",
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/46c7a2bd83aabda3802c75b6b3920eb8fee9198a-3194x1740.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-  },
-  {
-    "title": "Arbitrum approves $71 Million ETH release despite U.S. seizure fight",
-    "link": "https://www.coindesk.com/markets/2026/05/08/arbitrum-approves-usd71-million-eth-release-despite-u-s-seizure-fight",
-    "source": "CoinDesk",
-    "summary": "",
-    "description": "",
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/605ce816629211e87ca1f2db875c5ab3843e4f3b-1440x1080.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
   }
 ]
