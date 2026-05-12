@@ -48,7 +48,23 @@
     "image": ""
   },
   {
-    "title": "Ripple-linked XRP holds near $1.46 as breakout attempt fades despite $200 million raise",
+    "title": "Aave launches binding Arbitrum vote to move $71 million in disputed ETH",
+    "link": "https://www.coindesk.com/markets/2026/05/12/aave-launches-binding-arbitrum-vote-to-move-usd71-million-disputed-eth",
+    "source": "CoinDesk",
+    "summary": "",
+    "description": "",
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/2578b12e085043dfd4d0040d0397d23beac9f606-1000x717.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+  },
+  {
+    "title": "'Bitcoin transactions can be monitored’: Ray Dalio explains why central banks won’t touch BTC",
+    "link": "https://www.coindesk.com/markets/2026/05/12/bitcoin-transactions-can-be-monitored-ray-dalio-explains-why-central-banks-won-t-touch-btc",
+    "source": "CoinDesk",
+    "summary": "",
+    "description": "",
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/509511ff2bd7d63b9f4ace77f7ab56097de7b393-1494x923.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+  },
+  {
+    "title": "Ripple-linked XRP holds near $1.46 as breakout attempt fades",
     "link": "https://www.coindesk.com/markets/2026/05/12/ripple-linked-xrp-holds-near-usd1-46-as-breakout-attempt-fades-despite-usd200-million-raise",
     "source": "CoinDesk",
     "summary": "",
@@ -78,21 +94,5 @@
     "summary": "",
     "description": "",
     "image": "https://cdn.sanity.io/images/s3y3vcno/production/bfb4779e9245468a88a2a948bb0e1677ae7e7858-3840x2160.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-  },
-  {
-    "title": "'A big nothing burger': A Q&A with Strategy's Michael Saylor on selling bitcoin",
-    "link": "https://www.coindesk.com/markets/2026/05/11/a-big-nothing-burger-a-q-and-a-with-strategy-s-michael-saylor-on-selling-bitcoin",
-    "source": "CoinDesk",
-    "summary": "",
-    "description": "",
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/b7a99614202ed28b61d1994d9d008c5549d6458b-3552x1970.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-  },
-  {
-    "title": "'I don’t think that’s crazy': Here is why Circle is betting on new $3 billion blockchain",
-    "link": "https://www.coindesk.com/business/2026/05/11/i-don-t-think-that-s-crazy-here-is-why-circle-is-betting-on-new-usd3-billion-blockchain",
-    "source": "CoinDesk",
-    "summary": "",
-    "description": "",
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/1389229b8ec568a50350939c21ecc1d11d8da8e0-1920x1080.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
   }
 ]
