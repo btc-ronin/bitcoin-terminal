@@ -48,6 +48,14 @@
     "image": ""
   },
   {
+    "title": "Are perps swaps? A quick look at that CME suit: State of Crypto",
+    "link": "https://www.coindesk.com/policy/2026/06/21/are-perps-swaps-a-quick-look-at-that-cme-suit-state-of-crypto",
+    "source": "CoinDesk",
+    "summary": "",
+    "description": "",
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/d22b1e6fab9686661c3664c0636bcaea33ae8458-7463x4975.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+  },
+  {
     "title": "Ethereum's biggest 'sandwich' bot drained of $7.5 million in ironic exploit",
     "link": "https://www.coindesk.com/tech/2026/06/21/ethereum-s-biggest-sandwich-bot-drained-of-usd7-5-million-in-ironic-exploit",
     "source": "CoinDesk",
@@ -86,13 +94,5 @@
     "summary": "",
     "description": "",
     "image": "https://cdn.sanity.io/images/s3y3vcno/production/cc2e121d53068f5ee4a64351fa479ce13fd75769-6000x3978.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-  },
-  {
-    "title": "GoMining challenges Jack Dorsey's Square with payments system designed around bitcoin",
-    "link": "https://www.coindesk.com/business/2026/06/19/gomining-challenges-jack-dorsey-s-square-with-payments-system-designed-around-bitcoin",
-    "source": "CoinDesk",
-    "summary": "",
-    "description": "",
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/cab7c2189991e6ba68bc9c8c8ed71e58bf53bc8c-1280x800.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
   }
 ]
