@@ -48,7 +48,15 @@
     "image": ""
   },
   {
-    "title": "Live markets: Japan's collapsing yen is pushing companies into bitcoin and XRP",
+    "title": "XRP Ledger’s new upgrade is here. But not everyone’s on board yet",
+    "link": "https://www.coindesk.com/tech/2026/07/08/xrp-ledger-s-new-upgrade-is-here-but-not-everyone-s-on-board-yet",
+    "source": "CoinDesk",
+    "summary": "",
+    "description": "",
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/eeb54516a3b0a19f03d51ee5552619fa13b3be71-1920x1440.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+  },
+  {
+    "title": "Live markets: Bitcoin drops as yen, Iran ceasefire collapse",
     "link": "https://www.coindesk.com/tech/2026/07/08/live-markets-japan-s-collapsing-yen-is-pushing-companies-into-bitcoin-and-xrp",
     "source": "CoinDesk",
     "summary": "",
@@ -56,7 +64,7 @@
     "image": "https://cdn.sanity.io/images/s3y3vcno/production/9a12f071722174853c9625a894931ff37321e344-1920x1080.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
   },
   {
-    "title": "Bitcoin under pressure as U.S.-Iran escalation lifts oil",
+    "title": "Bitcoin under pressure as Trump says Iran ceasefire is over",
     "link": "https://www.coindesk.com/markets/2026/07/08/bitcoin-under-pressure-as-u-s-iran-escalation-lifts-oil",
     "source": "CoinDesk",
     "summary": "",
@@ -86,13 +94,5 @@
     "summary": "",
     "description": "",
     "image": "https://cdn.sanity.io/images/s3y3vcno/production/83d0912d3450cbd9352755a8558ea6c425c541a8-3000x2000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-  },
-  {
-    "title": "U.S. SEC to propose crypto rule as soon as this month to ease startups, fundraising",
-    "link": "https://www.coindesk.com/policy/2026/07/07/u-s-sec-to-propose-crypto-rule-as-soon-as-this-month-to-ease-startups-fundraising",
-    "source": "CoinDesk",
-    "summary": "",
-    "description": "",
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/82c63d25c774161ab6ecc7ce74e066578a78b0c5-1955x1100.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
   }
 ]
