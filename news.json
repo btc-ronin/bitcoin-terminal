@@ -48,6 +48,14 @@
     "image": ""
   },
   {
+    "title": "AI frenzy losing steam leaves bitcoin less volatile than South Korean stocks",
+    "link": "https://www.coindesk.com/daybook-us/2026/07/17/ai-frenzy-losing-steam-leaves-bitcoin-less-volatile-than-south-korean-stocks",
+    "source": "CoinDesk",
+    "summary": "",
+    "description": "",
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/4579bafab8cb44f285bf516a2c45762a479e92f9-1920x1080.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+  },
+  {
     "title": "Live markets: Bitcoin slips to $63,000 as the chip rout goes global",
     "link": "https://www.coindesk.com/markets/2026/07/17/live-markets-bitcoin-slips-to-usd63-000-as-the-chip-rout-goes-global",
     "source": "CoinDesk",
@@ -86,13 +94,5 @@
     "summary": "",
     "description": "",
     "image": "https://cdn.sanity.io/images/s3y3vcno/production/fcb3b7d3fbeb9995d5109c17af5b3924e23f55ee-1500x996.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-  },
-  {
-    "title": "DOG Mode vs. BIP-110: Inside the Bitcoin client built to bypass data restrictions",
-    "link": "https://www.coindesk.com/tech/2026/07/17/bitcoin-s-anti-spam-fight-gets-a-dog-mode-reply",
-    "source": "CoinDesk",
-    "summary": "",
-    "description": "",
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/ca4073986b82e35a5d6bd80c2e88a27749ed87bf-1024x576.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
   }
 ]
