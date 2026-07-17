@@ -48,6 +48,22 @@
     "image": ""
   },
   {
+    "title": "Live markets: Bitcoin slips to $63,000 as the chip rout goes global",
+    "link": "https://www.coindesk.com/markets/2026/07/17/live-markets-bitcoin-slips-to-usd63-000-as-the-chip-rout-goes-global",
+    "source": "CoinDesk",
+    "summary": "",
+    "description": "",
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/ec16b0d98820048d0801ef198a8c4e6ca1e6f687-4608x3456.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+  },
+  {
+    "title": "Risk-off wave drags bitcoin below $63,000 as AI selloff spreads from stocks to crypto",
+    "link": "https://www.coindesk.com/markets/2026/07/17/risk-off-wave-drags-bitcoin-below-usd63-000-as-ai-selloff-spreads-from-stocks-to-crypto",
+    "source": "CoinDesk",
+    "summary": "",
+    "description": "",
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/da2616937900c42d04e267c199e5905a24c2631d-1854x992.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+  },
+  {
     "title": "Airbnb CEO says X account was hacked, attacker posted AI-slop on tokenization",
     "link": "https://www.coindesk.com/web3/2026/07/17/airbnb-ceo-says-x-account-was-hacked-attacker-posted-ai-slop-thread-on-tokenization",
     "source": "CoinDesk",
@@ -72,27 +88,11 @@
     "image": "https://cdn.sanity.io/images/s3y3vcno/production/fcb3b7d3fbeb9995d5109c17af5b3924e23f55ee-1500x996.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
   },
   {
-    "title": "Bitcoin Ordinals leader proposes a way to bypass data restriction efforts",
+    "title": "DOG Mode vs. BIP-110: Inside the Bitcoin client built to bypass data restrictions",
     "link": "https://www.coindesk.com/tech/2026/07/17/bitcoin-s-anti-spam-fight-gets-a-dog-mode-reply",
     "source": "CoinDesk",
     "summary": "",
     "description": "",
     "image": "https://cdn.sanity.io/images/s3y3vcno/production/ca4073986b82e35a5d6bd80c2e88a27749ed87bf-1024x576.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-  },
-  {
-    "title": "Bitcoin under $63,000 after new U.S. strike on Iran. Trump's China comment adds to uncertainty",
-    "link": "https://www.coindesk.com/markets/2026/07/17/bitcoin-under-usd64-000-after-u-s-strike-on-iran-trump-s-china-comment-adds-to-uncertainty",
-    "source": "CoinDesk",
-    "summary": "",
-    "description": "",
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/37e2accde15c1395052adccd4d7862c477e046c4-2879x1093.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-  },
-  {
-    "title": "$1.9 trillion asset manager T. Rowe Price bets on active management with first multi-token crypto ETF",
-    "link": "https://www.coindesk.com/markets/2026/07/16/usd1-9-trillion-asset-manager-t-rowe-price-bets-on-active-management-with-first-multi-token-crypto-etf",
-    "source": "CoinDesk",
-    "summary": "",
-    "description": "",
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/4558fe33f280cde6e4df3eb29acb93a4b771c07f-3000x1791.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
   }
 ]
