@@ -48,6 +48,14 @@
     "image": ""
   },
   {
+    "title": "Russia cracks down on unlicensed crypto exchanges it claims are linked to Ukraine",
+    "link": "https://www.coindesk.com/policy/2026/08/07/russia-cracks-down-on-unlicensed-crypto-exchanges-it-claims-are-linked-to-ukraine",
+    "source": "CoinDesk",
+    "summary": "",
+    "description": "",
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/0f3b402a88a484342bc1b2aa4643ff9a5387e8f9-4256x2832.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+  },
+  {
     "title": "U.S. unexpectedly shed 23,000 jobs in July, putting Fed rate hikes in question",
     "link": "https://www.coindesk.com/markets/2026/08/07/the-u-s-lost-23-000-jobs-in-july-far-shy-of-forecasts-for-a-gain-of-80-000",
     "source": "CoinDesk",
@@ -86,13 +94,5 @@
     "summary": "",
     "description": "",
     "image": "https://cdn.sanity.io/images/s3y3vcno/production/fe04e926bda55bbfbc8b9f01ad56bab3df2f426d-2830x1454.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-  },
-  {
-    "title": "Coldcard fallout shows up onchain as 210,000 bitcoin leaves old wallets",
-    "link": "https://www.coindesk.com/markets/2026/08/07/coldcard-fallout-shows-up-onchain-as-210-000-bitcoin-leaves-old-wallets",
-    "source": "CoinDesk",
-    "summary": "",
-    "description": "",
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/26b8b4fba46a4ec6068433ab9d7d9a65df76fb6c-3200x1800.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
   }
 ]
