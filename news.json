@@ -48,51 +48,51 @@
     "image": ""
   },
   {
+    "title": "Australian watchdog suspends Cryptolink, forcing 96 ATMs offline",
+    "link": "https://www.coindesk.com/policy/2026/08/11/australian-watchdog-suspends-cryptolink-forcing-96-atms-offline",
+    "source": "CoinDesk",
+    "summary": "",
+    "description": "",
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/3472ecc19f3cbf47a2ced92e05ca5858d3c21771-1920x1280.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+  },
+  {
+    "title": "Ravencoin could roll back four days of transactions after critical block flaw",
+    "link": "https://www.coindesk.com/tech/2026/08/11/ravencoin-could-roll-back-four-days-of-transactions-after-critical-block-flaw",
+    "source": "CoinDesk",
+    "summary": "",
+    "description": "",
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/4d24cf23ae0690f3d88af4d0b51228c6b297753d-1500x1004.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+  },
+  {
+    "title": "Coinbase picks Abu Dhabi for its global tokenized asset push",
+    "link": "https://www.coindesk.com/business/2026/08/11/coinbase-picks-abu-dhabi-for-its-global-tokenized-asset-push",
+    "source": "CoinDesk",
+    "summary": "",
+    "description": "",
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/8f8e845d301c236d4f4687a125d984bf99f2fe55-1152x648.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+  },
+  {
+    "title": "When safe assets compete with risk. Lessons from the 1960s–90s for bitcoin and stocks.",
+    "link": "https://www.coindesk.com/daybook-us/2026/08/11/when-safe-assets-compete-with-risk-lessons-from-the-1960s-90s-for-bitcoin-and-stocks",
+    "source": "CoinDesk",
+    "summary": "",
+    "description": "",
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/51585465c8e5765c3b15c8fddc2d86d2c373f603-4294x2415.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+  },
+  {
+    "title": "Bitcoin-backed lending is entering its institutional era: Two Prime",
+    "link": "https://www.coindesk.com/markets/2026/08/11/bitcoin-backed-lending-is-entering-its-institutional-era-two-prime",
+    "source": "CoinDesk",
+    "summary": "",
+    "description": "",
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/f2b778c374f09c89cb217469fcbc7a90dc64323b-2048x1150.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+  },
+  {
     "title": "Bitcoin stuck below $65,000 as Hormuz hopes evaporate, XRP close to dropping below $1",
     "link": "https://www.coindesk.com/markets/2026/08/11/bitcoin-stuck-below-usd65-000-as-the-strait-of-hormuz-stalemate-and-strategy-s-selling-squeeze-the-market",
     "source": "CoinDesk",
     "summary": "",
     "description": "",
     "image": "https://cdn.sanity.io/images/s3y3vcno/production/05b77ba911a6a3107a8ada460c01d26723950dda-1884x1060.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-  },
-  {
-    "title": "Live updates: Bitcoin slips as corporate BTC enthusiasm moves to AI",
-    "link": "https://www.coindesk.com/tech/2026/08/11/live-updates-bitcoin-slips-as-corporate-btc-enthusiasm-moves-to-ai",
-    "source": "CoinDesk",
-    "summary": "",
-    "description": "",
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/4ef8d303f7969904e5e1ae76f9c06eaf7e4ea513-2856x1448.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-  },
-  {
-    "title": "FlightAware sues Kalshi over bets on flight cancellations",
-    "link": "https://www.coindesk.com/policy/2026/08/11/kalshi-faces-new-lawsuit-flightaware-accuses-it-of-using-its-data-for-flight-cancellation-betting",
-    "source": "CoinDesk",
-    "summary": "",
-    "description": "",
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/bc7f3e9169bf9107fc03d78e5c94a7e1d9d83488-4062x2708.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-  },
-  {
-    "title": "Software stocks break away from bitcoin: What the rare divergence means for crypto",
-    "link": "https://www.coindesk.com/markets/2026/08/11/software-stocks-break-away-from-bitcoin-what-the-rare-divergence-means-for-crypto",
-    "source": "CoinDesk",
-    "summary": "",
-    "description": "",
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/fdf51ced1e9ffbb8c0b1d7b79ae3a125caf2fb88-1534x969.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-  },
-  {
-    "title": "Luke Dashjr removed as Bitcoin BIP editor after controversial BIP-110 fork stalls",
-    "link": "https://www.coindesk.com/tech/2026/08/11/luke-dashjr-removed-as-bitcoin-bip-editor-after-controversial-bip-110-fork-stalls",
-    "source": "CoinDesk",
-    "summary": "",
-    "description": "",
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/dc4c12877ab4eb63b5f44ae62d0347edcbabaa90-1920x1080.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-  },
-  {
-    "title": "Nvidia’s $500 billion AI infrastructure push leaves crypto compute further behind",
-    "link": "https://www.coindesk.com/tech/2026/08/11/nvidia-wants-to-turn-its-ai-chips-into-an-investable-asset-class",
-    "source": "CoinDesk",
-    "summary": "",
-    "description": "",
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/e9266feac47af2efb0e63d06bff2900b7b377789-2118x1192.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
   }
 ]
