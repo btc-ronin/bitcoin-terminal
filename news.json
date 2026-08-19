@@ -48,7 +48,15 @@
     "image": ""
   },
   {
-    "title": "Live updates: Bitcoin holds firm above $64,000 as South Korea’s Kospi sinks 5.8%",
+    "title": "OpenAI trails Anthropic as losses deepen and Altman pauses frontier AI training",
+    "link": "https://www.coindesk.com/markets/2026/08/19/openai-trails-anthropic-as-losses-deepen-and-altman-pauses-frontier-ai-training",
+    "source": "CoinDesk",
+    "summary": "",
+    "description": "",
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/2fcf1aecd60b99a72f50543931ecd3025187c591-3000x2000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+  },
+  {
+    "title": "Live updates: Bitcoin remains above $64,000 as oil rises and the Kospi tumbles 6%",
     "link": "https://www.coindesk.com/markets/2026/08/19/live-updates-bitcoin-holds-firm-above-usd64-000-as-south-korea-s-kospi-sinks-5-8",
     "source": "CoinDesk",
     "summary": "",
@@ -86,13 +94,5 @@
     "summary": "",
     "description": "",
     "image": "https://cdn.sanity.io/images/s3y3vcno/production/54d1b7ab2cd7cbb2defef225c701163a7d5b8554-4300x2867.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-  },
-  {
-    "title": "Robinhood CEO urges U.S. to clear path for tokenized stocks as overseas markets advance",
-    "link": "https://www.coindesk.com/markets/2026/08/18/robinhood-ceo-urges-u-s-to-clear-path-for-tokenized-stocks-as-overseas-markets-advance",
-    "source": "CoinDesk",
-    "summary": "",
-    "description": "",
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/da9ffcdfcd965614c3a32a2e673631861308b387-1920x1080.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
   }
 ]
