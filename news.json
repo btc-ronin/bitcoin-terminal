@@ -48,7 +48,15 @@
     "image": ""
   },
   {
-    "title": "Binance loses $5.7 billion in 'biggest crypto hack in history'",
+    "title": "Binance hack drained wallets backing customer assets, reserve data shows",
+    "link": "https://www.coindesk.com/business/2026/10/30/binance-hack-drained-wallets-backing-customer-assets-reserve-data-shows",
+    "source": "CoinDesk",
+    "summary": "",
+    "description": "",
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/7a6f0c941843b3469a8ed4eb8ec6a4e76541c819-1920x1080.png?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+  },
+  {
+    "title": "Binance loses over $6 billion in 'biggest crypto hack in history'",
     "link": "https://www.coindesk.com/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets",
     "source": "CoinDesk",
     "summary": "",
@@ -86,13 +94,5 @@
     "summary": "",
     "description": "",
     "image": "https://cdn.sanity.io/images/s3y3vcno/production/d38bf40fdfdf026ca35418b9ee6dbe506fd52705-1280x720.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
-  },
-  {
-    "title": "Crypto exchange HTX exits the UK after settling with the FCA",
-    "link": "https://www.coindesk.com/policy/2026/10/29/crypto-exchange-htx-exits-the-uk-after-settling-with-the-fca",
-    "source": "CoinDesk",
-    "summary": "",
-    "description": "",
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/5f8af86c32513ff0a30bc4f06c53977acbd1bf59-2102x1184.png?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
   }
 ]
