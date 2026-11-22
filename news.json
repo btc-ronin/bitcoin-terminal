@@ -48,6 +48,14 @@
     "image": ""
   },
   {
+    "title": "Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins",
+    "link": "https://www.coindesk.com/tech/2026/11/22/bitcoin-s-quantum-security-challenge-extends-to-bridges-custodians-and-millions-of-coins",
+    "source": "CoinDesk",
+    "summary": "",
+    "description": "",
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/aeeabe28669425a95b4918b55a4680c3e968c1c7-6002x4001.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+  },
+  {
     "title": "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave",
     "link": "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open",
     "source": "CoinDesk",
@@ -86,13 +94,5 @@
     "summary": "",
     "description": "",
     "image": "https://cdn.sanity.io/images/s3y3vcno/production/e801fab0ba43b1fac7d53b2dde06f85232d5e766-1506x830.png?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
-  },
-  {
-    "title": "Bitcoin tanks below $57,000 for the first time in two years, and its not alone",
-    "link": "https://www.coindesk.com/markets/2026/11/21/bitcoin-tanks-below-usd57-000-for-the-first-time-in-two-years-and-its-not-alone",
-    "source": "CoinDesk",
-    "summary": "",
-    "description": "",
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/c4a0fdccd8d94e89522ad3903cb55ceb60c5e3d6-2158x1102.png?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
   }
 ]
